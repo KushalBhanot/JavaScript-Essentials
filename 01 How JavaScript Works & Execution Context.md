@@ -1,0 +1,4 @@
+- "Everything in JavaScript happens inside an Execution Context"
+- Execution Context is like a black-box where everything happens
+  - It consists of variable environment(memory) and thread of execution(code)
+- "JavaScript is synchronous single-threaded language"
