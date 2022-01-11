@@ -1,0 +1,2 @@
+- Local variable and global variable can have the same name
+- An execution context will look for variables accessible to it
