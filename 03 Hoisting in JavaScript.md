@@ -1,0 +1,2 @@
+- Hoisting means you can access variables and functions even before you have declared them and you won't get an error
+- Arrow functions behave like varibles in the memory allocation phase of the execution context and are allocated "undefined" by default and not the function block
