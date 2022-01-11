@@ -1,0 +1,18 @@
+- Execution Context works in two phases: memory allocation and code execution
+- In the first run(memory allocation), memory will be allocated to your data types and functions
+  - variables will store "undefined"
+  - function will have all the code inside their block
+- In the second run(code execution), actual values are assigned
+  - functions behave differently in JS
+  - whenever a function is invoked a whole new execution context is created just for the function
+  - after the return statement is executed, the execution context of that function is deleted
+- When you invoke a function, you pass an "arguement" and when you define a function, you define a "parameter"
+  - invoke: arguement, define: parameter
+- Call Stack is populated initially by Global Execution Contexts and more contexts are pushed onto it and they pop one by one
+- "Call Stack maintains the order of execution of execution contexts"
+- Call Stack is also known as:
+  - Execution Context Stack
+  - Program Stack
+  - Context Stack
+  - Runtime Stack
+  - Machine Stack
