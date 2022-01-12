@@ -1,0 +1,4 @@
+- scope is the level(block) where you access a variable or function in the execution context
+- Lexical Environment is the local memory along with the lexical environment of its parent
+- A child execution context has a reference to the lexcial environment of its parent
+- Scope Chain refers to the process of finding a variable or a function in its parents' lexical environments
