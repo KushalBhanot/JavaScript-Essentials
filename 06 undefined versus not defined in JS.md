@@ -1,0 +1,3 @@
+- JS is a weakly typed language, meaning you can change data types of variables
+- "undefined" is a placeholder used for variables during the memory allocation phase of the execution context
+- "not defined" is an error which is triggered when you use a variable or function that has not been declared
