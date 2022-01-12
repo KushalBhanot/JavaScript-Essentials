@@ -1,0 +1,11 @@
+- "let" and "const" declarations are hoisted
+- "let" declarations are hoisted in JS, but you can't access such variables since they are not present in the Global object, instead they are inside a "Script" object
+- You can only access "let" variables are you have declared them, otherwise you'll get a "ReferenceError"
+- Temporal Dead Zone is the time between the hoisting of a "let" variable and its assignment(initialisation) in the code execution
+- You cannot initialise two variables with the same name using "let". It will throw a "SyntaxError". But in the case of "var", it won't throw any error and it will move to code execution phase
+- Level of Strictness: const > let > var
+- You cannnot re-initialise a "const" variable. It will throw a "SyntaxError"
+- You need to initialise a "const" variable when you declare it. You cannot do it later.
+- If you try to re-initialise a "const" variable after you have initialised it at the declaration, then the JS engine will throw a "TypeError"
+- Best practice 1: use "const" and "let" instead of "var"
+- Best practice 2: always declare varibles at the top of your scope to shrink temporal dead zone
