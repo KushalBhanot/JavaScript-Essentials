@@ -1,7 +1,7 @@
 - Shortest JS code is an empty file since the JS Engine will setup call stack and glocal execution context
 - JavaScript Engine creates "window" and "this" for us
 - Every JS Engine has to create a global object
-  - In case of browers, it is called "windows"
+  - In case of browers, it is called "window"
   - But since JS can also run on servers and elsewhere, the global object might have a different name
 - Everything in the global space is accessible by the "window" keyword
 - At global scope, "this" keyword refers to the "window" object
