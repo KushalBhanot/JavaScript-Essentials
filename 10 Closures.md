@@ -1,0 +1,10 @@
+ - A **function** bundled together with its **lexical scope** is known as a **closure**
+ - Uses of closures -
+	 - Module Design Pattern
+	 - Currying
+	 - Functions like once
+	 - memoize
+	 - maintaing state in **async** world 
+	 - setTimeouts
+	 - Iterators
+	 - etc....
